@@ -1,0 +1,62 @@
+.game {
+    width: 600px;
+    height: 500px;
+    background-image: url(img/1642608892_35-abrakadabra-fun-p-bekgraund-dlya-igri-42.jpg);
+    margin: auto;
+}
+
+#dino {
+    width: 50px;
+    height: 50px;
+    background-image: url(img/uhnz4giqqj2hfpc9wl6823w7ylta.png);
+    background-size: 50px 50px;
+    position: relative;
+    top: 350px;
+}
+
+#mashroom {
+    width: 40px;
+    height: 40px;
+    background-image: url(img/6260707.png);
+    background-size: 40px 40px;
+    position: relative;
+    top: 310px;
+    left: 550px;
+    animation: mashroomMov 2s infinite linear;
+}
+
+@keyframes mashroomMov {
+    0% {
+        left: 580px;
+    }
+
+    100% {
+        left: -20px;
+    }
+}
+
+.jump {
+    animation: jump 0.3s linear;
+}
+
+@keyframes jump {
+    0% {
+        top: 350px;
+    }
+
+    25% {
+        top: 300px;
+    }
+
+    50% {
+        top: 250px;
+    }
+
+    75% {
+        top: 300px;
+    }
+
+    100% {
+        top: 350px;
+    }
+}
